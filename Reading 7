@@ -1,0 +1,22 @@
+### 《A Stochastic Model of Human-Machine Interaction for Learning Dialog Strategies》-Levin, Pieraccini and Eckert(2000)
+Dialog system
+  - Markov Decision Process
+    - Sequence decision process: action set (# granularity), state space, strategy. # MDP
+    - Dialog session: path from initial state to final state
+    - Dialog strategy: a specification of which action to take at each state.
+    - Parameters: transition probabilities & cost distributions
+  
+  - Two assumptions:
+    - State(t+1) depends on State(t) and Action(t)
+    - Cost(t) depends on State(t) and Action(t)
+    
+  - Reinforcement: Learn the optimal strategy through interaction instead of static corpus
+    - Limitation: requires a large number of dialog sessions for learning
+      --> simulated user: a stochastic generative model -> example: ATIS(air travel information system)
+  
+  
+  - Evaluate: objective function
+  
+### Assumption:
+  Markov assumption
+  Independence assumption
